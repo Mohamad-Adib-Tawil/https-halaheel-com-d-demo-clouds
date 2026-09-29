@@ -1,0 +1,51 @@
+:root { color-scheme: light; }
+.hero__english { margin: 0 auto 6px; color: var(--ink-sf); font: 500 15px/1.5 Tajawal, sans-serif; }
+.prayer-card {
+  width: min(620px, 100%); margin: 12px auto; padding: clamp(18px, 4vw, 28px);
+  border: 1px solid rgba(123, 184, 154, .3); border-radius: 22px;
+  background: rgba(255, 253, 250, .9); box-shadow: 0 12px 30px rgba(120, 90, 70, .08);
+}
+.prayer-card p { margin: 0; color: #3f5c4d; font-size: clamp(16px, 4vw, 19px); line-height: 2.15; }
+.prayer-card a { display: inline-block; margin-top: 10px; color: #538f73; font-weight: 700; }
+.hadith-card { background: linear-gradient(145deg, #fffdfa, #f1faf5); }
+.calendar-card, .rsvp-card {
+  width: min(460px, 100%); margin: 0 auto; padding: 24px clamp(16px, 5vw, 28px);
+  border: 1px solid rgba(123, 184, 154, .3); border-radius: 26px;
+  background: #fffdfa; box-shadow: 0 14px 34px rgba(120, 90, 70, .1);
+}
+.calendar-card { display: grid; justify-items: center; gap: 6px; color: #3f5c4d; }
+.calendar-card p { margin: 0; font: 700 18px Lalezar, serif; color: #7bb89a; }
+.calendar-card strong { color: #7bb89a; font: 700 66px/1.1 Lalezar, serif; }
+.calendar-card span { color: #7c9a8a; font-weight: 700; }
+.calendar-links { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+.calendar-links a { display: inline-flex; padding: 10px 18px; border: 1.5px solid #7bb89a; border-radius: 999px; color: #538f73; text-decoration: none; font-weight: 700; }
+.rsvp-subtitle { margin: -12px 0 20px; color: #7c9a8a; }
+.rsvp form { text-align: start; }
+.rsvp label, .form-label { display: block; margin: 14px 0 6px; color: #3f5c4d; font-size: 14px; font-weight: 700; }
+.rsvp input, .rsvp textarea { width: 100%; box-sizing: border-box; padding: 12px 14px; border: 1.5px solid rgba(123,184,154,.36); border-radius: 12px; background: white; color: #3f5c4d; font: inherit; }
+.rsvp input:focus, .rsvp textarea:focus { outline: 3px solid rgba(123,184,154,.2); border-color: #7bb89a; }
+.attendance-pills { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.pill, .stepper button { padding: 10px; border: 1.5px solid rgba(123,184,154,.36); border-radius: 12px; background: white; color: #3f5c4d; font: 700 15px Tajawal, sans-serif; cursor: pointer; }
+.pill.is-selected { background: #7bb89a; color: white; border-color: #7bb89a; }
+.stepper { display: flex; align-items: center; justify-content: center; gap: 14px; }
+.stepper button { width: 40px; height: 40px; padding: 0; border-radius: 50%; font-size: 21px; }
+.stepper span { min-width: 32px; text-align: center; color: #3f5c4d; font-size: 20px; font-weight: 800; }
+.send-button { width: 100%; margin-top: 20px; padding: 13px; border: 0; border-radius: 999px; background: #7bb89a; color: white; font: 700 16px Tajawal, sans-serif; cursor: pointer; box-shadow: 0 12px 26px -12px #7bb89ae6; }
+.form-status { min-height: 22px; margin: 10px 0 0; color: #538f73; font-weight: 700; }
+.wishes { max-width: 460px; margin: 32px auto 0; }
+.wishes-heading { margin-bottom: 16px; text-align: center; }
+.wishes-heading h2 { display: inline-block; margin: 0; padding: 7px 22px; border: 1px solid rgba(123,184,154,.36); border-radius: 999px; background: #fffaf6; color: #3f5c4d; font: 400 21px Lalezar, serif; }
+.wish-list { display: grid; gap: 10px; }
+.wish { display: flex; align-items: flex-start; gap: 11px; padding: 13px 15px; border: 1px solid rgba(123,184,154,.36); border-radius: 16px; background: #fffaf6; box-shadow: 0 8px 24px rgba(120,90,70,.08); animation: wishIn .4s ease both; }
+.wish-av { display: grid; flex: 0 0 40px; width: 40px; height: 40px; place-items: center; border-radius: 50%; color: white; font: 400 19px Lalezar, serif; }
+.wish-body { min-width: 0; text-align: start; }
+.wish-name { color: #3f5c4d; font-size: 14px; font-weight: 700; }
+.wish-msg { color: #7c9a8a; font-size: 14px; line-height: 1.7; overflow-wrap: anywhere; }
+@keyframes wishIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@media (min-width: 760px) {
+  .prayers, .calendar, .rsvp { padding-inline: 28px; }
+  .prayer-card { padding: 28px 38px; }
+}
+.cover__inner { width: min(640px, 94vw); }
+.cover__mono { max-width: 94vw; font-size: clamp(21px, 5.7vw, 40px); white-space: nowrap; }
+[hidden] { display: none !important; }

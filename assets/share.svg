@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">بشارة المولود نور الدين مخملجي</title>
+  <desc id="desc">قدمان صغيرتان في قلب وردي مع شريط نعناعي، واسم نور الدين مخملجي.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f9fcf8"/><stop offset="1" stop-color="#eaf8f2"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#fff" stop-opacity=".96"/><stop offset=".68" stop-color="#cbeddf" stop-opacity=".55"/><stop offset="1" stop-color="#cbeddf" stop-opacity="0"/></radialGradient>
+    <linearGradient id="heart" x1="0" y1="0" x2="0.8" y2="1"><stop stop-color="#fff0f4"/><stop offset="1" stop-color="#ffb9cd"/></linearGradient>
+    <linearGradient id="bow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a9e3d0"/><stop offset="1" stop-color="#71c6a9"/></linearGradient>
+    <radialGradient id="foot"><stop stop-color="#ffe7ce"/><stop offset="1" stop-color="#ffc59a"/></radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#78b99d" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="600" cy="272" r="265" fill="url(#glow)"/>
+  <g opacity=".9" font-family="sans-serif" text-anchor="middle">
+    <text x="180" y="210" font-size="36" fill="#ffb9cd">♥</text><text x="1010" y="250" font-size="32" fill="#a9e3d0">♥</text>
+    <text x="130" y="480" font-size="30" fill="#ffc59a">★</text><text x="1070" y="475" font-size="34" fill="#8fc0e8">♥</text>
+    <text x="340" y="350" font-size="27">🧸</text><text x="865" y="340" font-size="27">🍼</text>
+  </g>
+  <g transform="translate(600 205)" filter="url(#shadow)">
+    <path d="M0 10C-48-31-77-9-68 15c7 19 35 27 68 7 33 20 61 12 68-7C77-9 48-31 0 10Z" fill="url(#bow)"/>
+    <circle cy="11" r="13" fill="#fff"/><circle cy="11" r="7" fill="#72c7aa"/>
+    <path d="M-10 22-24 45M10 22 24 45" stroke="#72c7aa" stroke-width="6" stroke-linecap="round"/>
+    <path d="M0 170c-45-56-97-26-75 13 11 20 42 44 75 73 33-29 64-53 75-73 22-39-30-69-75-13Z" fill="url(#heart)" stroke="#fff" stroke-width="7"/>
+    <g fill="url(#foot)">
+      <g transform="translate(-27 182) rotate(-10)"><ellipse cy="0" rx="16" ry="25"/><circle cx="-10" cy="-25" r="5"/><circle cx="-4" cy="-29" r="4.4"/><circle cx="3" cy="-30" r="4"/><circle cx="9" cy="-27" r="3.4"/><circle cx="14" cy="-23" r="2.8"/></g>
+      <g transform="translate(27 182) rotate(10)"><ellipse cy="0" rx="16" ry="25"/><circle cx="10" cy="-25" r="5"/><circle cx="4" cy="-29" r="4.4"/><circle cx="-3" cy="-30" r="4"/><circle cx="-9" cy="-27" r="3.4"/><circle cx="-14" cy="-23" r="2.8"/></g>
+    </g>
+  </g>
+  <text x="600" y="438" text-anchor="middle" direction="rtl" font-family="Tajawal, Geeza Pro, sans-serif" font-size="24" fill="#8a7a68">بشارة مولود جديد</text>
+  <text x="600" y="500" text-anchor="middle" direction="rtl" font-family="Lalezar, Tajawal, Geeza Pro, sans-serif" font-size="48" font-weight="700" fill="#68ae97">أهلاً بنور الدين مخملجي</text>
+  <text x="600" y="544" text-anchor="middle" direction="ltr" font-family="Tajawal, sans-serif" font-size="22" fill="#718b7f">Nour Aldeen Mokhmalji</text>
+</svg>
