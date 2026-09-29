@@ -145,6 +145,7 @@ function buildNotes(items) {
 
 function buildContact(c) {
   const link = document.getElementById("contactLink");
+  const label = document.querySelector(".contact__label");
   if (!link) return;
   if (label && c.contact.label) label.textContent = c.contact.label;
   if (c.contact.whatsappUrl) {
